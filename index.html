@@ -35,10 +35,6 @@ cursor:pointer;
 margin:0;
 }
 
-nav a:focus{
-background:none;
-}
-
 nav:hover {
 background:black;
 }
@@ -499,12 +495,20 @@ text-decoration:none;
 width:98%;
 }
 
+nav a:hover{
+background:none;
+}
+
+nav a:focus{
+background:#ccc;
+}
+
 }
 </style>
 </head>
 <body>
 <nav>
-<a href="#menu1-1">HOME</a><a href="#menu1-2">MENU</a><a href="#menu1-3">ABOUT</a><a href="#menu1-4">CONTACT</a>
+<a href="#menu1-1" onclick="">HOME</a><a href="#menu1-2">MENU</a><a href="#menu1-3">ABOUT</a><a href="#menu1-4">CONTACT</a>
 </nav>
 <div class="img1">
 
